@@ -20,6 +20,7 @@ Installing SugboCSS using NPM (Node Package Manager).
 npm i sugbocss@latest
 ```
 
+
 Using SugboCSS through a CDN (Content Delivery Network).
 
 ### CDN
