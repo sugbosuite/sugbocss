@@ -20,6 +20,14 @@ Installing SugboCSS using NPM (Node Package Manager).
 npm i sugbocss@latest
 ```
 
+Using SugboCSS through a CDN (Content Delivery Network).
+
+### CDN
+
+```sh
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@ff78e6c526857729c3070da2acf3bcc194f641b7/dist/sugbo.min.css" integrity="sha256-E3S16wPO3Hyji/Bx+yAI5SqOKDbUAproMF1FyNUFPjk=" crossorigin="anonymous" fetchpriority="high">
+```
+
 ## Documentation
 
 Full documentation: [Click here.](https://sugbocss.netlify.app)
