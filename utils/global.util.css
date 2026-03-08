@@ -15,8 +15,8 @@
 .truncate-90  { max-width: 90ch;  }
 .truncate-100 { max-width: 100ch; }
 
-.text-italic       { font-style: italic; }
-.text-normal       { font-style: normal; }
+.text-italic { font-style: italic; }
+.text-normal { font-style: normal; }
 
 .text-underline    { text-decoration: underline;    }
 .text-line-through { text-decoration: line-through; }

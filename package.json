@@ -1,15 +1,15 @@
 {
-  "name": "sugbo",
-  "version": "0.0.1",
-  "description": "Sugbo combines intuitive developer experience with sophisticated design, helping creators deliver striking, reliable, high-impact interfaces.",
+  "name": "sugbocss",
+  "version": "0.0.0",
+  "description": "SugboCSS combines intuitive developer experience with sophisticated design, helping creators deliver striking, reliable, high-impact interfaces.",
   "main": "min/sugbo.min.css",
   "style": "min/sugbo.min.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sugbosuite/sugbo.git"
+    "url": "git+https://github.com/sugbosuite/sugbocss.git"
   },
   "keywords": [
-    "sugbo",
+    "sugbocss",
     "css",
     "ui",
     "components",
@@ -26,9 +26,9 @@
   "author": "Allen Charls Casul",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sugbosuite/sugbo/issues"
+    "url": "https://github.com/sugbosuite/sugbocss/issues"
   },
-  "homepage": "https://github.com/sugbosuite/sugbo#readme",
+  "homepage": "https://github.com/sugbosuite/sugbocss#readme",
   "files": [
     "min",
     "utils",
