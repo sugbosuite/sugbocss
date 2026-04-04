@@ -1,9 +1,9 @@
 {
   "name": "sugbocss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "SugboCSS combines intuitive developer experience with sophisticated design, helping creators deliver striking, reliable, high-impact interfaces.",
-  "main": "dist/sugbo.min.css",
-  "style": "dist/sugbo.min.css",
+  "main": "min/sugbo.min.css",
+  "style": "min/sugbo.min.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sugbosuite/sugbocss.git"
