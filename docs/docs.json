@@ -8,19 +8,163 @@
   {
     "title": "Floating Action Button",
     "description": "A circular button that floats above the interface, used for primary or quick actions.",
-    "link": "/components/fab",
-    "tags": ["button", "action", "floating", "primary", "shortcut"]
-  },
-  {
-    "title": "Modal Dialog",
-    "description": "A pop-up window that overlays the main content to capture user attention for critical tasks or messages.",
-    "link": "/components/modal",
-    "tags": ["dialog", "popup", "overlay", "alert", "interaction"]
+    "link": "/components/floating-action-button",
+    "tags": ["button", "action", "floating", "primary", "shortcut", "fab"]
   },
   {
     "title": "Tooltip",
     "description": "A small, informative text box that appears when hovering or focusing on an element to provide extra context.",
     "link": "/components/tooltip",
     "tags": ["hint", "hover", "info", "context", "assist"]
+  },
+  {
+    "title": "Avatar",
+    "description": "A graphical representation of a user, often shown as a profile picture or icon.",
+    "link": "/components/avatar",
+    "tags": ["profile", "user", "icon", "identity", "image"]
+  },
+  {
+    "title": "Banner",
+    "description": "A prominent message area used to display notifications, promotions, or important information.",
+    "link": "/components/banner",
+    "tags": ["notification", "message", "alert", "promo", "display"]
+  },
+  {
+    "title": "Breadcrumb",
+    "description": "A navigation aid that shows the user’s current location within a hierarchy of pages.",
+    "link": "/components/breadcrumb",
+    "tags": ["navigation", "path", "hierarchy", "location", "trail"]
+  },
+  {
+    "title": "Bottom Navigation",
+    "description": "A navigation bar fixed at the bottom of the screen for quick access to primary destinations.",
+    "link": "/components/bottom-navigation",
+    "tags": ["navigation", "menu", "mobile", "tabs", "access"]
+  },
+  {
+    "title": "Bottom Sheet",
+    "description": "A panel that slides up from the bottom of the screen to show contextual actions or content.",
+    "link": "/components/bottom-sheet",
+    "tags": ["panel", "overlay", "slide", "context", "actions"]
+  },
+  {
+    "title": "Button",
+    "description": "An interactive element that triggers an action when clicked or tapped.",
+    "link": "/components/button",
+    "tags": ["click", "action", "interactive", "control", "trigger"]
+  },
+  {
+    "title": "Badge",
+    "description": "A small indicator used to display counts, status, or notifications on an element.",
+    "link": "/components/badge",
+    "tags": ["indicator", "count", "status", "notification", "label"]
+  },
+  {
+    "title": "Card",
+    "description": "A container that groups related information and actions in a structured format.",
+    "link": "/components/card",
+    "tags": ["container", "content", "group", "layout", "info"]
+  },
+  {
+    "title": "Chat Bubble",
+    "description": "A visual element representing a message in a conversation interface.",
+    "link": "/components/chat-bubble",
+    "tags": ["message", "conversation", "text", "dialogue", "interface"]
+  },
+  {
+    "title": "Chip",
+    "description": "A compact element representing an input, attribute, or action.",
+    "link": "/components/chip",
+    "tags": ["filter", "tag", "selection", "input", "compact"]
+  },
+  {
+    "title": "Code Snippet",
+    "description": "A formatted block of code displayed for reference or copy.",
+    "link": "/components/code-snippet",
+    "tags": ["code", "syntax", "block", "developer", "reference"]
+  },
+  {
+    "title": "Copy to Clipboard",
+    "description": "An action that allows users to copy text or data to their clipboard.",
+    "link": "/components/copy-to-clipboard",
+    "tags": ["copy", "clipboard", "text", "action", "utility"]
+  },
+  {
+    "title": "Dialog",
+    "description": "A modal window used to capture user input or provide information.",
+    "link": "/components/dialog",
+    "tags": ["modal", "popup", "overlay", "input", "message"]
+  },
+  {
+    "title": "Dropdown",
+    "description": "A menu that expands to show a list of selectable options.",
+    "link": "/components/dropdown",
+    "tags": ["menu", "options", "select", "expand", "list"]
+  },
+  {
+    "title": "Finance",
+    "description": "A component for displaying financial data such as balances, transactions, or charts.",
+    "link": "/components/finance",
+    "tags": ["money", "data", "transactions", "charts", "balance"]
+  },
+  {
+    "title": "List",
+    "description": "A vertical arrangement of items, often used for navigation or content display.",
+    "link": "/components/list",
+    "tags": ["items", "navigation", "content", "ordered", "display"]
+  },
+  {
+    "title": "OTP/Verification Input",
+    "description": "An input field designed for entering one-time passwords or verification codes.",
+    "link": "/components/otp-input",
+    "tags": ["verification", "security", "input", "code", "auth"]
+  },
+  {
+    "title": "Pagination",
+    "description": "A control that divides content into multiple pages and allows navigation between them.",
+    "link": "/components/pagination",
+    "tags": ["navigation", "pages", "control", "content", "browse"]
+  },
+  {
+    "title": "Preloader",
+    "description": "An indicator shown while content or data is loading.",
+    "link": "/components/preloader",
+    "tags": ["loading", "indicator", "progress", "wait", "animation"]
+  },
+  {
+    "title": "Progress",
+    "description": "A visual indicator that shows the completion status of a task or process.",
+    "link": "/components/progress",
+    "tags": ["status", "bar", "completion", "task", "indicator"]
+  },
+  {
+    "title": "Skeleton",
+    "description": "A placeholder UI that mimics the layout of content while data is loading.",
+    "link": "/components/skeleton",
+    "tags": ["loading", "placeholder", "content", "layout", "preview"]
+  },
+  {
+    "title": "Table",
+    "description": "A structured grid used to display data in rows and columns.",
+    "link": "/components/table",
+    "tags": ["data", "rows", "columns", "grid", "structured"]
+  },
+  {
+    "title": "Toast",
+    "description": "A lightweight notification that appears temporarily to provide feedback or updates.",
+    "link": "/components/toast",
+    "tags": ["notification", "message", "feedback", "popup", "alert"]
+  },
+  {
+    "title": "Top Navigation",
+    "description": "A navigation bar fixed at the top of the screen for accessing primary sections.",
+    "link": "/components/top-navigation",
+    "tags": ["navigation", "menu", "header", "tabs", "access"]
+  },
+  {
+    "title": "Text Field",
+    "description": "An input field that allows users to enter and edit text.",
+    "link": "/components/text-field",
+    "tags": ["input", "text", "form", "editable", "field"]
   }
 ]
