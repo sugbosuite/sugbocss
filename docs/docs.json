@@ -1,17 +1,26 @@
 [
   {
+    "title": "Accordion",
+    "description": "A vertically stacked list of items that can be expanded or collapsed to reveal hidden content.",
+    "link": "/components/accordion",
+    "tags": ["collapse", "expand", "toggle", "sections", "content"]
+  },
+  {
     "title": "Floating Action Button",
+    "description": "A circular button that floats above the interface, used for primary or quick actions.",
     "link": "/components/fab",
-    "tags": ["button", "action", "floating"]
+    "tags": ["button", "action", "floating", "primary", "shortcut"]
   },
   {
     "title": "Modal Dialog",
+    "description": "A pop-up window that overlays the main content to capture user attention for critical tasks or messages.",
     "link": "/components/modal",
-    "tags": ["dialog", "popup", "overlay"]
+    "tags": ["dialog", "popup", "overlay", "alert", "interaction"]
   },
   {
     "title": "Tooltip",
+    "description": "A small, informative text box that appears when hovering or focusing on an element to provide extra context.",
     "link": "/components/tooltip",
-    "tags": ["hint", "hover", "info"]
+    "tags": ["hint", "hover", "info", "context", "assist"]
   }
 ]
