@@ -6,7 +6,6 @@ SugboCSS adds elegance and personality to your toolkit. Its playful, developerâ€
 ![NPM](https://img.shields.io/npm/dw/sugbocss?color=%23ef3e36)
 ![jsDelivr](https://data.jsdelivr.com/v1/package/gh/sugbosuite/sugbocss/badge)
 ![Github](https://img.shields.io/github/license/sugbosuite/sugbocss)
-![Github](https://img.shields.io/github/repo-size/sugbosuite/sugbocss)
 ![Github](https://img.shields.io/github/contributors/sugbosuite/sugbocss?color=%234a4df5)
 ![Github](https://img.shields.io/github/stars/sugbosuite/sugbocss)
 
@@ -23,7 +22,7 @@ npm i sugbocss@latest
 Using SugboCSS through a CDN (Content Delivery Network).
 
 ```sh
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@ff78e6c526857729c3070da2acf3bcc194f641b7/dist/sugbo.min.css" integrity="sha256-E3S16wPO3Hyji/Bx+yAI5SqOKDbUAproMF1FyNUFPjk=" crossorigin="anonymous" fetchpriority="high">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@21a6595577268b2c8e1bbfd48f9e6fc76d6da996/dist/sugbo.min.css" integrity="sha256-rmLQzyS7MVgDlSbuBOr558uZtZvMQ/DsIi6Wd5PqWQA=" crossorigin="anonymous" fetchpriority="high">
 ```
 
 ## Documentation
