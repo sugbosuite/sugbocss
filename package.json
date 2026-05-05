@@ -1,7 +1,7 @@
 {
   "name": "sugbocss",
-  "version": "0.0.2",
-  "description": "SugboCSS combines intuitive developer experience with sophisticated design, helping creators deliver striking, reliable, high-impact interfaces.",
+  "version": "0.0.4",
+  "description": "Sugbo CSS combines intuitive developer experience with sophisticated design, helping creators deliver striking, reliable, high-impact interfaces.",
   "main": "min/sugbo.min.css",
   "style": "min/sugbo.min.css",
   "repository": {

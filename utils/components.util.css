@@ -1,6 +1,6 @@
-.btn-s,
-.btn-m,
-.btn-l,
+.btn-sm,
+.btn-md,
+.btn-lg,
 .btn-xl {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -21,9 +21,9 @@
   overflow: hidden;
 }
 
-.btn-s::after,
-.btn-m::after,
-.btn-l::after,
+.btn-sm::after,
+.btn-md::after,
+.btn-lg::after,
 .btn-xl::after {
   content: "";
   position: absolute;
@@ -39,16 +39,16 @@
   translate: -50% -50%;
 }
 
-.btn-s:active::after,
-.btn-m:active::after,
-.btn-l:active::after,
+.btn-sm:active::after,
+.btn-md:active::after,
+.btn-lg:active::after,
 .btn-xl:active::after {
   animation: ripple 275ms ease-out;
 }
 
-.btn-s  { font-size: var(--font-size-m);  height: 1.8rem;   padding: 0 0.685rem; }
-.btn-m  { font-size: var(--font-size-ml); height: 2.3rem;   padding: 0 0.955rem; }
-.btn-l  { font-size: var(--font-size-l);  height: 2.75rem;  padding: 0 1.25rem;  }
+.btn-sm  { font-size: var(--font-size-m);  height: 1.8rem;   padding: 0 0.685rem; }
+.btn-md  { font-size: var(--font-size-ml); height: 2.3rem;   padding: 0 0.955rem; }
+.btn-lg  { font-size: var(--font-size-l);  height: 2.75rem;  padding: 0 1.25rem;  }
 .btn-xl { font-size: var(--font-size-l);  height: 3.255rem; padding: 0 1.495rem; }
 
 .btn-ghost,

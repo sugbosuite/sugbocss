@@ -105,3 +105,8 @@
 .bg-attachment-scroll { background-attachment: scroll; }
 .bg-attachment-fixed  { background-attachment: fixed;  }
 .bg-attachment-local  { background-attachment: local;  }
+
+.resize-none       { resize: none;       }
+.resize-both       { resize: both;       }
+.resize-vertical   { resize: vertical;   }
+.resize-horizontal { resize: horizontal; }

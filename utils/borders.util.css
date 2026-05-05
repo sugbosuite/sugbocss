@@ -1,13 +1,13 @@
-.border-none   { border-style: none;   }
-.border-hidden { border-style: hidden; }
-.border-solid  { border-style: solid;  }
-.border-dashed { border-style: dashed; }
-.border-dotted { border-style: dotted; }
-.border-double { border-style: double; }
-.border-groove { border-style: groove; }
-.border-ridge  { border-style: ridge;  }
-.border-inset  { border-style: inset;  }
-.border-outset { border-style: outset; }
+.border-style-none   { border-style: none;   }
+.border-style-hidden { border-style: hidden; }
+.border-style-solid  { border-style: solid;  }
+.border-style-dashed { border-style: dashed; }
+.border-style-dotted { border-style: dotted; }
+.border-style-double { border-style: double; }
+.border-style-groove { border-style: groove; }
+.border-style-ridge  { border-style: ridge;  }
+.border-style-inset  { border-style: inset;  }
+.border-style-outset { border-style: outset; }
 
 .border-width-0   { border-width: 0;     }
 .border-width-0-1 { border-width: 0.1px; }
@@ -68,7 +68,9 @@
 .border-left-default   { border-left: 0.5px solid var(--border-adaptive);   }
 .border-right-default  { border-right: 0.5px solid var(--border-adaptive);  }
 
+.border-none    { border: none;    }
 .outline-none   { outline: none;   }
+
 .outline-solid  { outline: solid;  }
 .outline-dashed { outline: dashed; }
 .outline-dotted { outline: dotted; }

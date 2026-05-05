@@ -1,6 +1,6 @@
 # [Sugbo CSS Framework](https://sugbocss.netlify.app)
 
-SugboCSS adds elegance and personality to your toolkit. Its playful, developer‑friendly components make everything from simple pages to complex apps look polished and refined.
+Sugbo CSS adds elegance and personality to your toolkit. Its playful, developer‑friendly components make everything from simple pages to complex apps look polished and refined.
 
 ![NPM](https://img.shields.io/npm/v/sugbocss?color=e60914)
 ![NPM](https://img.shields.io/npm/dw/sugbocss?color=%23ef3e36)
@@ -12,17 +12,17 @@ SugboCSS adds elegance and personality to your toolkit. Its playful, developer�
 ## Installation
 
 ### NPM
-Installing SugboCSS using NPM (Node Package Manager).
+Installing Sugbo CSS using NPM (Node Package Manager).
 
 ```sh
 npm i sugbocss@latest
 ```
 
 ### CDN
-Using SugboCSS through a CDN (Content Delivery Network).
+Using Sugbo CSS through a CDN (Content Delivery Network).
 
 ```sh
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@21a6595577268b2c8e1bbfd48f9e6fc76d6da996/dist/sugbo.min.css" integrity="sha256-rmLQzyS7MVgDlSbuBOr558uZtZvMQ/DsIi6Wd5PqWQA=" crossorigin="anonymous" fetchpriority="high">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@e547e24e39d563ea465691225914875f10476c24/dist/sugbo.min.css" integrity="sha256-yZW4Ra6fb8yk5rxlCfse3k6+uZUaZci8IPaLnB2w1J8=" crossorigin="anonymous" fetchpriority="high">
 ```
 
 ## Documentation
