@@ -22,7 +22,7 @@ npm i sugbocss@latest
 Using Sugbo CSS through a CDN (Content Delivery Network).
 
 ```sh
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@e547e24e39d563ea465691225914875f10476c24/dist/sugbo.min.css" integrity="sha256-yZW4Ra6fb8yk5rxlCfse3k6+uZUaZci8IPaLnB2w1J8=" crossorigin="anonymous" fetchpriority="high">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sugbosuite/sugbocss@646acf7f043a78b798e6b90fe9118e12407fe75e/dist/sugbo.min.css" integrity="sha256-yZW4Ra6fb8yk5rxlCfse3k6+uZUaZci8IPaLnB2w1J8=" crossorigin="anonymous" fetchpriority="high">
 ```
 
 ## Documentation
