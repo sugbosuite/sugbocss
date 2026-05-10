@@ -28,10 +28,92 @@
   to { transform: rotate(360deg); }
 }
 
-@keyframes indeterminate {
-  0%   { left: -100%; width: 100%; }
-  50%  { left: 25%;   width: 50%;  }
-  100% { left: 100%;  width: 0;    }
+.progress-indeterminate {
+  position: relative;
+  height: 3px;
+  background-color: var(--primary-translucent);
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.progress-indeterminate-bar {
+  position: absolute;
+  height: 100%;
+  background-color: var(--primary);
+  transform-origin: left;
+  border-radius: 100px;
+}
+
+.indeterminate-bar-primary   { animation: progress-indeterminate-primary 2s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+.indeterminate-bar-secondary { animation: progress-indeterminate-secondary 2s cubic-bezier(0.165, 0.84, 0.44, 1) infinite; animation-delay: 1s; }
+
+@keyframes progress-indeterminate-primary {
+  0%   { left: -35%; width: 35%;  }
+  60%  { left: 100%; width: 100%; }
+  100% { left: 100%; width: 0%;   }
+}
+
+@keyframes progress-indeterminate-secondary {
+  0%   { left: -50%; width: 50%; }
+  60%  { left: 100%; width: 50%; }
+  100% { left: 100%; width: 0%;  }
+}
+
+.progress-circular {
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+  animation: progress-circular-rotate 1.45s linear infinite;
+}
+
+.progress-circular-path {
+  stroke: var(--primary);
+  stroke-linecap: unset;
+  animation: progress-circular-dash 1.12s ease-in-out infinite;
+}
+
+@keyframes progress-circular-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes progress-circular-dash {
+  0%   { stroke-dasharray: 1, 200; stroke-dashoffset: 0;       }
+  50%  { stroke-dasharray: 89, 200; stroke-dashoffset: -35px;  }
+  100% { stroke-dasharray: 89, 200; stroke-dashoffset: -124px; }
+}
+
+.spinner-circular {
+  width: 20px;
+  height: 20px;
+  animation: spinner-rotate 0.85s linear infinite;
+}
+
+.spinner-circular-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-circular-path {
+  stroke: var(--primary);
+  stroke-linecap: unset;
+  stroke-dasharray: 90, 150;
+  stroke-dashoffset: 0;
+  border-top-color: transparent;
+  animation: spinner-dash 1.5s ease-in-out infinite;
+}
+
+@keyframes spinner-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-dash {
+  0%   { stroke-dasharray: 1, 150; stroke-dashoffset: 0;     }
+  50%  { stroke-dasharray: 90, 150; stroke-dashoffset: -35;  }
+  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
 }
     
 @keyframes grow {
